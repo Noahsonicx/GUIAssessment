@@ -14,4 +14,12 @@ public class SceneChanger : MonoBehaviour
     {
         SceneManager.LoadScene("Options");
     }
+    public void PauseMenu()
+    {
+        SceneManager.LoadScene("PauseMenu");
+    }
+    public void GameScene()
+    {
+        SceneManager.LoadScene("GameScene");
+    }
 }
