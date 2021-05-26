@@ -22,4 +22,12 @@ public class SceneChanger : MonoBehaviour
     {
         SceneManager.LoadScene("GameScene");
     }
+    public void LoadGame()
+    {
+        SceneManager.LoadScene("LoadGame");
+    }
+    public void SaveGame()
+    {
+        SceneManager.LoadScene("SaveGame");
+    }
 }
