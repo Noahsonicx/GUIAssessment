@@ -6,7 +6,7 @@ public class SaveLoad
 {
     public static void Load()
     {
-       
+       /*
         // If there is no save data, we shoudn't attempt to load it
         if (File.Exists(FilePath + ".save"))
             return;
@@ -21,6 +21,6 @@ public class SaveLoad
             gameData = formatter.Deserialize(stream) as GameData;
 
         }
-        
+        */
     }
 }
