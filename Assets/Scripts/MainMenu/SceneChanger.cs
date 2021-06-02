@@ -16,6 +16,7 @@ public class SceneChanger : MonoBehaviour
     }
     public void PauseMenu()
     {
+        FindObjectOfType<KeyBinding>().Save();
         SceneManager.LoadScene("PauseMenu");
     }
     public void GameScene()
