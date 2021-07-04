@@ -17,10 +17,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SaveGame.unity
     guid: fa8549716401a204fa6f49fc303dd8b1
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Options.unity
     guid: d3e9247e40b494744a6a32aaad0df2f8
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/PauseMenu.unity
     guid: caf12e3c1a2e70249b5fcf8f0590079b
   - enabled: 1
